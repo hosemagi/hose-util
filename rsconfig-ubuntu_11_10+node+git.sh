@@ -10,3 +10,5 @@ curl http://npmjs.org/install.sh | sudo sh
 npm -v
 sudo apt-get install mongodb
 sudo npm install mongolian
+sudo apt-get install nginx
+sudo npm install forever
