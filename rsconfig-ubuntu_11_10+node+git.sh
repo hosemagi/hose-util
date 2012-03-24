@@ -8,3 +8,5 @@ sudo make install
 node -v
 curl http://npmjs.org/install.sh | sudo sh
 npm -v
+sudo apt-get install mongodb
+sudo npm install mongolian
