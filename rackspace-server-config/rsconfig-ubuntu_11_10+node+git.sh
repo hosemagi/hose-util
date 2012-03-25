@@ -29,7 +29,7 @@ sudo apt-get -y install nginx
 sudo npm install -g forever
 
 #configure nginx front end proxy
-sudo cp ./nginx/site /etc/nginx/sites-available/site
+sudo cp /tmp/hose-util/rackspace-server-config/nginx/site /etc/nginx/sites-available/site
 sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site
 sudo /etc/init.d/nginx restart
 
