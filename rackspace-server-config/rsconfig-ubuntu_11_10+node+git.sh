@@ -20,7 +20,7 @@ npm -v
 sudo apt-get -y install mongodb
 
 #install mongolian
-sudo npm install mongolian
+sudo npm install -g mongolian
 
 #install nginx
 sudo apt-get -y install nginx
