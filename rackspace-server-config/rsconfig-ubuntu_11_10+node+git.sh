@@ -27,11 +27,17 @@ sudo apt-get -y install nginx
 
 #install forever
 sudo npm install forever
+sudo ln -s /usr/local/lib/node_modules/forever/bin/forever /usr/local/bin/forever
 
 #configure nginx front end proxy
 sudo cp ./nginx/site /etc/nginx/sites-available/site
 sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site
 sudo /etc/init.d/nginx restart
+
+#get server base code
+sudo mkdir /var/www
+cd /var/www
+sudo git clone git@github.com:hosemagi/nodeserv
 
 #create sysadmin user
 sudo useradd sysadmin
