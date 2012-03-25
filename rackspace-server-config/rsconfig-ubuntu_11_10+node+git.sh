@@ -26,8 +26,7 @@ sudo npm install mongolian
 sudo apt-get -y install nginx
 
 #install forever
-sudo npm install forever
-sudo ln -s /usr/local/lib/node_modules/forever/bin/forever /usr/local/bin/forever
+sudo npm install -g forever
 
 #configure nginx front end proxy
 sudo cp ./nginx/site /etc/nginx/sites-available/site
