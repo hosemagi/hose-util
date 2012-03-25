@@ -39,7 +39,7 @@ cd /var/www
 sudo git clone git@github.com:hosemagi/nodeserv
 
 #create sysadmin user
-sudo useradd sysadmin
+sudo useradd -m sysadmin
 sudo usermod -a -G admin sysadmin
 echo ** SETUP COMPLETE **
 echo ** Created sysadmin user, enter administrator password: **
